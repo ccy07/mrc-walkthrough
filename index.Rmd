@@ -27,11 +27,11 @@ head(language_diversity)
 ```
 ---
 ```{r}
-p1 <-[
+
 ld <- language_diversity %>% 
   filter(., Continent == "Africa") %>% 
   pivot_wider(names_from = "Measurement", values_from = "Value")]
-p1
+
 ```
 ---
 ```{r}

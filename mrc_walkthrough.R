@@ -18,6 +18,7 @@ library(tidyverse)
 library(untidydata)
 library(ds4ling)
 library(patchwork)
+library(plot3D)
 
 devtools::install_github("jvcasillas/ds4ling", force = T)
 data(language_diversity)
